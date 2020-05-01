@@ -1,4 +1,4 @@
-FROM node-alpine
+FROM node:alpine
 
 RUN apk add --update --no-cache chromium
 
